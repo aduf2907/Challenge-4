@@ -1,0 +1,16 @@
+<%- include("../partials/head") %>
+<body>
+    <h1>Input Data Cars Baru</h1>
+    <form action="/products" method="POST" enctype="multipart/form-data">
+        <label for="">name</label>
+        <input type="text" name="name" placeholder="Nama/Tipe Mobil"><br>
+        <label for="">price</label>
+        <input type="text" name="price" placeholder="430.000"><br>
+        <label for="">size</label>
+        <input type="text" name="size" placeholder="small"><br>
+        <label for="">image</label>
+        <input type="file" name="image"><br>
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
